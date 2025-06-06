@@ -1,4 +1,35 @@
-const COOKIE = "<cookie>" // Replace with your actual cookie
+const COOKIE = {
+  "__bid_n": "1972af4ef77b4efad34207",
+  "__Host-1PLSID": "o.chromewebstore.google.com|o.drive.google.com|o.mail.google.com|o.photos.fife.usercontent.google.com|o.photos.google.com|o.play.google.com|s.IN|s.youtube:g.a000xAha5HbFWqZFBiz_B3shK6yoXk8H19-oLqr5wzqJDdpJyIXKTqKu3fSdr2NpWM7k-5lizQACgYKAdUSARMSFQHGX2MiP5EVAwM12LsWhMFYDorOxBoVAUF8yKqOm80urdLI1XtnMWffaiJ00076",
+  "__Host-3PLSID": "o.chromewebstore.google.com|o.drive.google.com|o.mail.google.com|o.photos.fife.usercontent.google.com|o.photos.google.com|o.play.google.com|s.IN|s.youtube:g.a000xAha5HbFWqZFBiz_B3shK6yoXk8H19-oLqr5wzqJDdpJyIXKAEHrNRGnSrxOJ8NGPVZpmwACgYKAUQSARMSFQHGX2MiU5zxYhQeMEopqGc5rnAdJhoVAUF8yKroIwBoeoda1Gct1_j_6bcg0076",
+  "__Host-GAPS": "1:sOzfk_CQy9CBLPFxf7WrT4y9dp_01e-u8XD0a3bhClh9S5uMo25sLAJauO9wgi1Pd19HkTv3p_vDHGryQxXgtiCBDGxqTQ:RwGQcH3LjejlNE2m",
+  "__Secure-1PAPISID": "_YHh4btawYbQaqMl/AViiiqxa3eDDP8YBo",
+  "__Secure-1PSID": "g.a000xAha5E_qxH-6I6h-RS5Gf3HDSATOoELRF-YJu4h1M44GH_1tZSsm30oSFQlUMYKKAYu2XwACgYKAYcSARMSFQHGX2MizjWlRrUMynqkyuX_pgyCnBoVAUF8yKp1x2PkaAqez6-Kwo1oztRZ0076",
+  "__Secure-1PSIDCC": "AKEyXzUjRhK--zk8_un0OsIUO_IjSOFcdKcWIbsVrluAl0HtguSZzY6S7rJB6OOk_LvjP3UGzQ",
+  "__Secure-1PSIDTS": "sidts-CjIB5H03P2T1NFbRQroKUTvFQK8Uc6flSFNFugDZIxjbDpt8NGaQpLLsFrDzJdd9ufV0URAA",
+  "__Secure-3PAPISID": "_YHh4btawYbQaqMl/AViiiqxa3eDDP8YBo",
+  "__Secure-3PSID": "g.a000xAha5E_qxH-6I6h-RS5Gf3HDSATOoELRF-YJu4h1M44GH_1tiUCHbMOA2E_Ql524qPKMfQACgYKAY0SARMSFQHGX2MiH4PD2MqsrpZMKHkoEbFYqBoVAUF8yKo0xmaBUBNAZwhBd7kbF5RF0076",
+  "__Secure-3PSIDCC": "AKEyXzX7ST6ysjGVFY2a30SBmLRC10q-AQpNQkV3K_jeg4fb5Tx6teg3hdf5xHDfk-IM4wxyp2U",
+  "__Secure-3PSIDTS": "sidts-CjIB5H03P2T1NFbRQroKUTvFQK8Uc6flSFNFugDZIxjbDpt8NGaQpLLsFrDzJdd9ufV0URAA",
+  "ACCOUNT_CHOOSER": "AFx_qI6iFc-CVrMNmM4I5ElrVWCj4AdT682mbSMWX2_9xZvP7Jb55pRjyAdYtLk1uPeK-ch7yiBDZ3Dm9i2mDwgAY6Gk7nVg7IVvPP01mh5i9MZ1F6heF7-ulpo4cJDXzreMYTagVPO2ulkYTq6RnXtgpgt41D1CP-wpxwx86IvrkuyDxIHOuWDz5A9toIele4EisVyhcKfo",
+  "AEC": "AVcja2cYIxBVp1odOWMVvPattIhtr-mWijpK3evBWBtHqXIJapcnvxs1jw",
+  "APISID": "AgAVDfOjuP_g-U9V/ADB3e7FjvGrWS5t9Z",
+  "browserid": "npDjrqjcq9khT2InnF_KM4ia-pfnuYQGYYwWzcuigDQzHWsYc0qOogoqAwlAmJP__fmroc_ZKkXX4qbj",
+  "csrfToken": "tjTDDhJjnltldzklj7MkBdF3",
+  "HSID": "AwioJ_tIJ4lZBINe-",
+  "lang": "en",
+  "LSID": "o.chromewebstore.google.com|o.drive.google.com|o.mail.google.com|o.photos.fife.usercontent.google.com|o.photos.google.com|o.play.google.com|s.IN|s.youtube:g.a000xAha5HbFWqZFBiz_B3shK6yoXk8H19-oLqr5wzqJDdpJyIXKpaARNDMUfcRTgiDswETf5QACgYKAeISARMSFQHGX2MiVBtSgSSEWVxtOLn6S3m0ShoVAUF8yKq_bMBP-6q3uioHIrmo_cWD0076",
+  "LSOLH": "_SVI_ENL4n8Wg0I0DGBAiP01BRURIZl9xc1pWRFlGQ3JzLVFGTDFPUDdyWXpURFdvdHc4WmhReEVUekZETXBTeUNkSmZ4T1dxcVdBRXVvVQ_:29146381:59bb",
+  "ndus": "Y25LDB1peHuiqyR8wXTaHGMYL9ALRwIJ65-TJ9y9",
+  "ndut_fmt": "5B5DBF3D2847295B2571A46492FAC217D384B9CCB7F7A6E0F8C12E2782A94C2B",
+  "NID": "524=SYqwz91oOD_rRRsScSn7eLv9P7euIERUOUT6THRd9ZQP-_Noz0UXXUAMHXtrre5SCAMcgKBLaq5mF_3ZnUDzvhg-UvqT-wZr__L6AiiAVWjov-Y-I9FOZFm4-XMiiiCaRBtpPUPZIx7waRPtzw3SUpo3kx3GZDSvUewdAbglSLZKhAxWrxKu6URmUtEGMI3sHnZ9THttk62QBU_P3TOi3dpsXgn-xRWnlv7TO2NtZB0t_D89uURRCBtEDCVIQnDVpzH0hhFiTEv1T1hZknndpcFqxxOlUMFfghLi6hPfwKf1M8u7X2Fsy5dNxdvRw4dTusRP5x0DDtkX7fpsiLssf3tJiBp4f51qy0mP6gksTRE45M5MfNiyiG2b0DWb7mO1JmFMTLEpMpdoBAa_RiioJyz086t6Vl6BPrrpyaPKaUetqwnzxfJY2INgqXc2yBFhrS4tA8amBl2xUdQ8RpM9WN3OxbUSyxFiOddF_2i9_hgD-MFBrDf9w5w04tsiNDMC-mVzP-ijMcxhzPelPKTl6G1q6p94zGvSeMT4SpXZPvu3SzPuxTlULD8vn7VDs-fJfqqpQLLqzreP89t1jlJIUlKTxjURxKTYDEiqob6TeVA1xNdVEaEc9vUWjDwPGyxcl-Cva4XTXxp6HpJkE3u7VFqiJNKpulV6WO2LI1j-hdQbohuBjpWK74aLA3GSDjMDmIE6u8FKo550ex2k7LwwaEy6yT6e6dI0RBxyjAuDMLsrJM3_xcsQC5HH1r8ZnitunPY07zTC_hWwQ-p2y5oU3TfGlvc9kQ",
+  "OTZ": "8107966_34_34__34_",
+  "SAPISID": "_YHh4btawYbQaqMl/AViiiqxa3eDDP8YBo",
+  "SEARCH_SAMESITE": "CgQI950B",
+  "SID": "g.a000xAha5E_qxH-6I6h-RS5Gf3HDSATOoELRF-YJu4h1M44GH_1tRNWWRq-zez-PXbD4eb5nuAACgYKASwSARMSFQHGX2MiARaENImgeMCNQumGqTYAAxoVAUF8yKqpPfhvOwU0p-6EHnj46jJs0076",
+  "SIDCC": "AKEyXzX3ajSe09Fbq0SvFiSxycpj5AOuHAtaYJsmnYh2e3hDeVnqpDeh1Sukx1Ud6m7rig-J4a4"
+  // ... The string ends abruptly, more keys may follow.
+};
 
 const HEADERS = {
   "Accept": "application/json, text/plain, */*",
